@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
 import cli from '../src/cli.js';
+import brainEven from '../src/brain-even.js';
 
-cli();
+const name = cli();
+brainEven(name);
