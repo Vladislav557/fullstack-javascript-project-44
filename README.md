@@ -5,3 +5,31 @@
 
 
 [![asciicast](https://asciinema.org/a/C4gHHLeqqmJEP0I15v8GNGRQf.svg)](https://asciinema.org/a/C4gHHLeqqmJEP0I15v8GNGRQf)
+
+
+## Setup
+
+```sh
+make install
+npm link
+```
+
+## Run tests
+
+```sh
+make lint
+```
+
+## Run games
+
+```sh
+brain-even
+brain-calc
+brain-progression
+brain-gcd
+brain-prime
+```
+
+## Link of asciinema
+[link of asciinema](https://asciinema.org/a/WfMmkyeVstGim9hKFTAqwYPO5)
+

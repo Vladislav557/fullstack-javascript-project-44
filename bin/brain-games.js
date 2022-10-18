@@ -1,7 +1,4 @@
 #!/usr/bin/env node
+import brainGames from '../src/cli.js';
 
-import cli from '../src/cli.js';
-import brainEven from '../src/brain-even.js';
-
-const name = cli();
-brainEven(name);
+brainGames();
